@@ -44,12 +44,11 @@ setInterval(
 function updateRose() {
     var bg = {
         width: 820,
-        height: 1180
+        height: 1180,
+        X: 210,
+        Y: 600
     };
-    var curSize = {
-        width: document.body.clientWidth,
-        height: document.body.clientHeight
-    };
+
     var rose = {
         width: 200,
         height: 200,
@@ -57,20 +56,24 @@ function updateRose() {
         Y: 650
     }
 
-    var newSize = {
-        width: rose.width * curSize.width / bg.width,
-        height: rose.height * curSize.height / bg.height,
-        X: rose.X * curSize.width / bg.width,
-        Y: rose.Y * curSize.height / bg.height
+    var curBg = {
+        width: document.body.clientWidth,
+        height: document.body.clientHeight,
+        X: bg.X * document.body.clientWidth / bg.width,
+        Y: bg.Y *  document.body.clientHeight / bg.height
     }
 
+    var curRose = {
+        width: rose.width * curBg.width / bg.width,
+        height: rose.height * curBg.width / bg.width,
+        X: curBg.X - curRose.width,
+        Y:curBg.Y + 50 * curBg.width / bg.width
+    }
     var rose = document.getElementById('rose');
     rose.setAttribute('width', newSize.width);
     rose.setAttribute('height', newSize.height);
     rose.setAttribute('margin-top', newSize.X);
-    rose.setAttribute('margin-left',  newSize.Y);
-
-    console.log(newSize);
+    rose.setAttribute('margin-left', newSize.Y);
 }
 
 window.onresize = function () {
