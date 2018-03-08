@@ -19,8 +19,14 @@ html body #msg{
     font-family: 'Courier New', Courier, monospace;
 }
 
-html body #rose{
+#rose{
     margin-top: 400px;
-    height: 30%;
-    width: 30%
+    margin-left: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+#rose #can-rose{
+    width: inherit;
+    height: inherit;
 }

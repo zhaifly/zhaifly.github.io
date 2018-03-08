@@ -1,10 +1,3 @@
-var b = document.body;
-var c = document.getElementById('rose');
-var a = c.getContext('2d');
-with(m = Math) C = cos, S = sin, P = pow, R = random;
-c.width = c.height = f = 600;
-h = -250;
-
 function p(a, b, c) {
     if (c > 60) return [S(a * 7) * (13 + 5 / (.2 + P(b * 4, 4))) - S(b) * 50, b * f + 50, 625 + C(a * 7) * (13 +
         5 / (.2 + P(b * 4, 4))) + b * 400, a * 1 - b / 2, a];
@@ -36,6 +29,52 @@ function p(a, b, c) {
         ]
     }
 }
+
+var b = document.body;
+var c = document.getElementById('can-rose');
+var a = c.getContext('2d');
+with(m = Math) C = cos, S = sin, P = pow, R = random;
+c.width = c.height = f = 600;
+h = -250;
+
 setInterval(
     'for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',
     0);
+
+function updateRose() {
+    var bg = {
+        width: 820,
+        height: 1180
+    };
+    var curSize = {
+        width: document.body.clientWidth,
+        height: document.body.clientHeight
+    };
+    var rose = {
+        width: 200,
+        height: 200,
+        X: 5,
+        Y: 650
+    }
+
+    var newSize = {
+        width: rose.width * curSize.width / bg.width,
+        height: rose.height * curSize.height / bg.height,
+        X: rose.X * curSize.width / bg.width,
+        Y: rose.Y * curSize.height / bg.height
+    }
+
+    var rose = document.getElementById('rose');
+    rose.setAttribute('width', newSize.width);
+    rose.setAttribute('height', newSize.height);
+    rose.setAttribute('margin-top', newSize.X);
+    rose.setAttribute('margin-left',  newSize.Y);
+
+    console.log(newSize);
+}
+
+window.onresize = function () {
+    updateRose();
+}
+
+updateRose();
