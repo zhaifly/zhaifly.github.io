@@ -12,19 +12,18 @@
 ## **EDUCATION**
 ---------
 * ### 2012/09 - 2015/06 -- &nbsp;&nbsp; Master &nbsp;&nbsp; Shang Hai University &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mechatronic Engineering               
-* ### 2012/09 - 2015/06 -- &nbsp;&nbsp; bachelor &nbsp;&nbsp; He Nan University of Technology &nbsp;&nbsp; Mechanical design and manufacture and automation      
+* ### 2012/09 - 2015/06 -- &nbsp;&nbsp; Bachelor &nbsp;&nbsp; He Nan University of Technology &nbsp;&nbsp; Mechanical design and manufacture and automation      
 
 ## **WORK EXPRIENCE**
 ----------
 * ### 2015/06 - Now -- &nbsp;&nbsp; **Intel** &nbsp;&nbsp; Flex 
-* ### &nbsp;&nbsp; (2015/06 - 2017/05) -- **Software Engineer** &nbsp;&nbsp; (2017/05 - Now) -- **Machine Learning Engineer**
-* ### &nbsp;&nbsp; (2017/01 - 2018/04) -- **GEAR China PAS Lead(12 people)** (2018/04 - Now) -- **GEAR China Lead(24 people)**
+* ### 2015/06 - 2017/05 -- **Software Engineer**; &nbsp;&nbsp; 2017/05 - Now -- **Machine Learning Engineer**
+* ### 2017/01 - Now -- **GEAR China Lead (24 people)**
 
 ## **SKILLS**
 * ### Program language -- &nbsp;&nbsp; **Python**, Javascript, C/C++/C#, Golang
 * ### Parallel computing -- &nbsp;&nbsp; OpenMP, OpenBlas, MKL, OpenCL，MKLDNN
 * ### Machine Learning -- &nbsp;&nbsp; PaddlePaddle<sub>*(RNN)*</sub>, Caffe, PyTorch, OpenCV, R<sub>*(slef learning)*</sub>
-* ### WEB -- &nbsp;&nbsp;  Nginx; Flask, Express; Redis; SQL
 
 ## **PROJECTS**
 --------------------
@@ -46,7 +45,7 @@
 ## **INNOVATION**
 --------------------
 * ### 2015/10 - 2015/11 -- &nbsp;&nbsp; **OpenCL DES Demo**
-#### Hardware purchase and setup, Demo UI (winfrom) and test script (windows shell) implementation, command line interface design, and DES with multi-thread implementation (c++).
+#### Hardware purchase and setup, Demo UI (winform) and test script (windows shell) implementation, command line interface design, and DES with multi-thread implementation (c++).
 
 * ### 2015/12 - 2016/05 -- &nbsp;&nbsp; **SOFIA 3GR code scan**			
 #### Setup an code scan environment with Python and Bash, which can fetch, scan code, generate result with Excel format and change issues' state then E-mailed to PM automatically
@@ -58,9 +57,7 @@
 #### Prove that the input samples with high resolution will benifit the lung nodular detection with the same algorithm. Training a reset18 based RPN (PyTorch) to search proposals in CT scans, and then porting it on Intel extented Caffe on KNL platform with 384 GB memory. Benchmark test (accuracy, recall and precision) with samples in different resolution (64, 128, 192). 
 
 * ### 2018/01 - Now -- &nbsp;&nbsp; **[Heartbeat Sounds](https://www.kaggle.com/kinguistics/heartbeat-sounds)** (iCube)
-#### Research heart sound signal processing: 1. Locate S1(lub) and S2(dub) sounds within audio data, segmenting the Normal audio files;
-2. Classify real heart audio (also known as “beat classification”) into one of four categories. learning Feature engineering in signal and do classification with ML (SVM, LR). Gain expierence of signal or sound processing that maybe can be used in ADAS.  
+#### Research heart sound signal processing: 1. Locate S1(lub) and S2(dub) sounds within audio data, segmenting the Normal audio files; 2. Classify real heart audio into one of four categories. learning Feature engineering in signal and do classification with ML (SVM, LR). Gain expierence of signal or sound processing that maybe can be used in ADAS.  
 
 * ### 2018/04 - 2018/06 -- &nbsp;&nbsp; **DiagVR** (I2R)
 #### An optimized deep learning network to screen lung nodule based on Intel XEON platform and Intel Cafe framework to accelerate the detection and classification. Releases 3D neural network capabilities to help medical AI development VTK and VR 3D Reconstruction with stunning effects Large 3D scans image processing with high resolution – the memory is up to 192G for a single node Use the patient's CT image data design algorithm to find the location of the lung nodules in the CT image.
-
