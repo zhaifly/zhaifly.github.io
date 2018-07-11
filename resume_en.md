@@ -12,7 +12,7 @@
 ## **EDUCATION**
 ---------
 * ### 2012/09 - 2015/06 -- &nbsp;&nbsp; Master &nbsp;&nbsp; Shang Hai University &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mechatronic Engineering               
-* ### 2012/09 - 2015/06 -- &nbsp;&nbsp; Bachelor &nbsp;&nbsp; He Nan University of Technology &nbsp;&nbsp; Mechanical design and manufacture and automation      
+* ### 2012/09 - 2015/06 -- &nbsp;&nbsp; Bachelor &nbsp;&nbsp; He Nan University of Technology &nbsp;&nbsp; Mechanical Design and Manufacture and Automation      
 
 ## **WORK EXPRIENCE**
 ----------
