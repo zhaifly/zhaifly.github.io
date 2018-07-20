@@ -21,6 +21,7 @@
 * ### 2017/01 - Now -- **GEAR China Lead (24 people)**
 
 ## **SKILLS**
+----------
 * ### Program language -- &nbsp;&nbsp; **Python**, Javascript, C/C++/C#, Golang
 * ### Parallel computing -- &nbsp;&nbsp; OpenMP, OpenBlas, MKL, OpenCL，MKLDNN
 * ### Machine Learning -- &nbsp;&nbsp; PaddlePaddle<sub>*(RNN)*</sub>, Caffe, PyTorch, OpenCV, R<sub>*(slef learning)*</sub>
